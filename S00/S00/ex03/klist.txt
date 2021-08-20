@@ -1,0 +1,5 @@
+Credentials cache: API:C4C7F593-5A69-440A-998E-3EF241E29F8E
+        Principal: adben-mc@42.FR
+
+  Issued                Expires             Flags    Principal
+Aug  2 12:35:46 2021  Aug  9 12:35:41 2021  FPIA   krbtgt/42.FR@42.FR
