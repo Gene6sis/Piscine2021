@@ -1,24 +1,32 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_map.c                                           :+:      :+:    :+:   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: adben-mc <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: maufrech <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/08/19 15:51:33 by adben-mc          #+#    #+#             */
-/*   Updated: 2021/08/21 01:23:05 by adben-mc         ###   ########.fr       */
+/*   Created: 2021/08/21 19:51:06 by maufrech          #+#    #+#             */
+/*   Updated: 2021/08/22 21:05:11 by adben-mc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int	*ft_map(int *tab, int length, int(*f)(int))
+#include <unistd.h>
+#include "ft.h"
+
+void	ft_putchar(char	c)
 {
-	unsigned int	i;
+	write(1, &c, 1);
+}
+
+void	ft_putstr(char *str)
+{
+	int	i;
 
 	i = 0;
-	while (i < length)
+	while (str[i] != '\0')
 	{
-		(*f)(tab[i]);
+		ft_putchar(str[i]);
 		i++;
 	}
-	return (tab);
+	ft_putchar(' ');
 }

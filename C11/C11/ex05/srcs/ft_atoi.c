@@ -6,7 +6,7 @@
 /*   By: adben-mc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 00:25:05 by adben-mc          #+#    #+#             */
-/*   Updated: 2021/08/20 01:31:23 by adben-mc         ###   ########.fr       */
+/*   Updated: 2021/08/21 01:24:54 by adben-mc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_strlen(char *str)
 {
-	unsigned int i;
+	unsigned int	i;
 
 	i = 0;
 	while (str[i])

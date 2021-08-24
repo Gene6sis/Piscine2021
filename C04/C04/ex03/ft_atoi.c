@@ -6,7 +6,7 @@
 /*   By: adben-mc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/09 00:37:27 by adben-mc          #+#    #+#             */
-/*   Updated: 2021/08/09 17:02:22 by adben-mc         ###   ########.fr       */
+/*   Updated: 2021/08/21 22:44:14 by adben-mc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,7 @@ int	ft_atoi(char *str)
 }
 
 #include <stdio.h>
-int main()
+int main(int argc, char **argv)
 {
-	printf("%d\n", ft_atoi("2147483647"));
-	printf("%d\n", ft_atoi("0"));
-	printf("%d\n", ft_atoi("-2147483648"));
+	printf("%d\n", ft_atoi(argv[1]));
 }

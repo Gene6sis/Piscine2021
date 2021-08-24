@@ -6,14 +6,14 @@
 /*   By: adben-mc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/19 15:39:15 by adben-mc          #+#    #+#             */
-/*   Updated: 2021/08/19 15:50:23 by adben-mc         ###   ########.fr       */
+/*   Updated: 2021/08/21 01:22:27 by adben-mc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_foreach(int *tab, int length, void(*f)(int))
 {
-	unsigned int i;
-	
+	unsigned int	i;
+
 	i = 0;
 	while (i < length)
 	{

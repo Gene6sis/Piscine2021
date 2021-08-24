@@ -6,7 +6,7 @@
 /*   By: adben-mc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/20 01:37:30 by adben-mc          #+#    #+#             */
-/*   Updated: 2021/08/20 01:47:14 by adben-mc         ###   ########.fr       */
+/*   Updated: 2021/08/21 01:24:31 by adben-mc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ void	operateur(int a, char op, int b)
 	else if (op == '%')
 	{
 		if (b != 0)
-			func(a, b, &modulo);	
+			func(a, b, &modulo);
 		else
 			write(1, "Stop : modulo by zero\n", 22);
 	}
@@ -44,7 +44,7 @@ void	operateur(int a, char op, int b)
 		write(1, "0\n", 2);
 }
 
-int main(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	if (argc != 4)
 		return (0);

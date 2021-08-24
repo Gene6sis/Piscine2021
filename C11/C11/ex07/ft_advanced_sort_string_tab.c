@@ -6,7 +6,7 @@
 /*   By: adben-mc <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/19 23:44:10 by adben-mc          #+#    #+#             */
-/*   Updated: 2021/08/19 23:47:33 by adben-mc         ###   ########.fr       */
+/*   Updated: 2021/08/21 01:26:52 by adben-mc         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,8 +34,7 @@ void	ft_advanced_sort_string_tab(char **tab, int(*cmp)(char *, char *))
 	}	
 }
 
-
-
+/*
 #include <stdio.h>
 
 int	ft_strcmp(char *s1, char *s2)
@@ -56,3 +55,4 @@ int main(int argc, char **argv)
 	for (int i = 0; argv[i]; i++)
 		printf("%s\n", argv[i]);
 }
+*/
