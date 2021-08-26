@@ -1,0 +1,9 @@
+*.out
+*.txt
+*.o
+*.swp
+*.h.gch
+bsq
+BSQ
+*.dSYM
+*.pl
