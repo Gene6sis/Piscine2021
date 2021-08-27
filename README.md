@@ -1,16 +1,17 @@
-# Piscine2021
-
-/* ********************************************************************* */
-/*                                                                       */
-/*                                                   :::      ::::::::   */
-/*  Piscine2021.c                                  :+:      :+:    :+:   */
-/*                                               +:+ +:+         +:+     */
-/*  By: adben-mc                               +#+  +:+       +#+        */
-/*                                           +#+#+#+#+#+   +#+           */
-/*  Created: 2021/08/02 -------- by adben-mc      #+#    #+#             */
-/*  Updated: 2021/08/27 -------- by adben-mc     ###   ########.fr       */
-/*                                                                       */
-/* ********************************************************************* */
+# Piscine 42 - Aout 2021
+```
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   Piscine - Aout 2021                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: adben-mc                                   +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/08/02 10:00:00                      #+#    #+#             */
+/*   Updated: 2021/08/27 18:00:00                     ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+```
 
 Probleme : 
 - BSQ : Nous avions juste une erreur pour les maps de taille 1 (colonne ou ligne)
@@ -22,5 +23,5 @@ Probleme :
 - Final Exam : mon dernier exo était g_diam
 
 Que le sort puisse vous être favorable !
-Et la triche ne sert à rien, les connaissances sont testé en exam principalement.
+Et la triche ne sert à rien, les connaissances sont testé principalement en exam.
 Et un conseil, n'oubliez pas de lockscreen !
