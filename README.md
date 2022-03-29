@@ -30,5 +30,4 @@ Exam Final :
 aff_a || ft_print_numbers || ft_swap || fizzbuzz || aff_first_param || rot13 || ft_strcmp || ft_strrepl || ft_atoi || wdmatch || ft_itoa || sort_list || count_alpha || str_maxlenoc || g_diam
 
 Exam 00-02 : 
-aff_a || ft_strlen || ulstr || inter || atoi || ft_rrange || ft_split
-hello || wdmatch || rot13 || ft_range
+aff_a || ft_strlen || ulstr || inter || atoi || ft_rrange || ft_split || hello || wdmatch || rot13 || ft_range
